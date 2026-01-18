@@ -10,6 +10,8 @@ body {
 }
 
 .card {
+  line-height: 1.6;
+  width: 380px;
   background: white;
   padding: 45px;
   border-radius: 16px;
