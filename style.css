@@ -130,3 +130,33 @@ h2 {
   margin: 0;
   font-size: 14px;
 }
+/* ===== Mobile Responsive Menu ===== */
+
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .menu {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: white;
+    flex-direction: column;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    display: none;
+  }
+
+  .menu li {
+    padding: 10px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
