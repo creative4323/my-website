@@ -21,11 +21,19 @@
     </ul>
   </nav>
 
-  <div class="card">
-    <h1>Contact Me</h1>
-    <p>Email: example@email.com</p>
-    <p>Phone: 0123456789</p>
-  </div>
+<div class="card">
+  <h1>Contact Me</h1>
+
+  <form action="https://formspree.io/f/xyzzabcd" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>
 
 </body>
 </html>
