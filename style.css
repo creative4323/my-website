@@ -135,3 +135,31 @@ footer {
     font-size: 28px;
   }
 }
+/* PRODUCT IMAGE + BADGE */
+.product {
+  position: relative;
+}
+
+.product-img {
+  width: 260px;
+  margin: 20px auto;
+  display: block;
+}
+
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: #ffc107;
+  color: #000;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.product-note {
+  font-size: 14px;
+  color: #555;
+  margin-top: 12px;
+}
